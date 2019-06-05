@@ -7,7 +7,7 @@ class HomePage extends Component {
             <div>
                 <img className="profile-pic" src={profilePic} alt="Farhad"/>
                 <div className="text-container">
-                    <div className="offset center">I'm Farhad Makiabady. This is a test message</div>
+                    <div className="offset center">I'm Farhad Makiabady. This is a test message tes</div>
                 </div>
             </div>
         )
