@@ -4,12 +4,11 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import Particles from 'react-particles-js';
 import particleFile from './particles.json';
-import { AwesomeButton, AwesomeButtonProgress, AwesomeButtonSocial } from 'react-awesome-button';
 
 
 function App() {
   return (
-    <div className="demo-big-content">
+    <div className="background-test">
       <Layout>
         <Header title="Farhad's Portfolio" scroll>
           <Navigation>
