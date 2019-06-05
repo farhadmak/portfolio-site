@@ -8,7 +8,7 @@ import 'react-mdl/extra/material.js';
 import { HashRouter } from 'react-router-dom';
 
 ReactDOM.render(
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={'/'}>
     <App />
     </HashRouter>
     , document.getElementById('root'));
