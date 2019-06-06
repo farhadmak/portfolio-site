@@ -24,3 +24,11 @@ canvas {
   margin-bottom: 0px;
   z-index: 0;
 }
+
+.fab, .far, .fas, .fa {
+  font-family: FontAwesome !important;
+ }
+
+ a {
+   text-decoration: none;
+ }

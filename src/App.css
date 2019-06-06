@@ -51,3 +51,16 @@
   text-align: center;
   color: #dedfe0;
 }
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin: auto;
+  padding: 1em;
+}
+
+.social-links span{
+  color: #66FCF1;
+  font-size: 5em;
+}

@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://farhadm.com/",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-awesome-button": "^6.1.2",
