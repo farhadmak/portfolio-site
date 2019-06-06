@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css';
 
 ReactDOM.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -17,4 +18,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-console.log("process.env" + process.env.PUBLIC_URL);

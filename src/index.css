@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./images/mountain-background-resize.png")
+  background-image: url("./images/mountainpic-background.png")
   /* background: #1F2833;  fallback for old browsers */
   /* background: -webkit-linear-gradient(to top, #0B0C10, #303d4e);  Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to top, #0B0C10, #303d4e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -22,5 +22,13 @@ canvas {
   position: absolute;
   margin-top: 0px;
   margin-bottom: 0px;
-  z-index: -1;
+  z-index: 0;
 }
+
+.fab, .far, .fas, .fa {
+  font-family: FontAwesome !important;
+ }
+
+ a {
+   text-decoration: none;
+ }
