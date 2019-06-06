@@ -10,14 +10,16 @@ function App() {
   return (
     <div className="background-test">
       <Layout>
-        <Header title="Farhad's Portfolio" scroll>
-          <Navigation>
-            <a href="/">Farhad's Profile</a>
-            <a href="/resume">Resume</a>
-            <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
-            <a href="/aboutme">About Me</a>
+        <Header className="nav-header" scroll>
+          <Navigation className="home-link">
+            <a href="/">Farhad's Portfolio</a>
           </Navigation>
+            <Navigation className="nav-text">
+              <a href="/resume">Resume</a>
+              <a href="/projects">Projects</a>
+              <a href="/contact">Contact</a>
+              <a href="/aboutme">About Me</a>
+            </Navigation>
         </Header>
         <Drawer title="Title">
           <Navigation>
@@ -33,9 +35,7 @@ function App() {
             params={particleFile}
           />
           <Main />
-          
         </Content>
-        
       </Layout>
 
     </div>
