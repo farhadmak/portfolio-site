@@ -4,7 +4,7 @@ class AboutMe extends Component {
     render() {
         return (
             <div>
-                <h1>About Me</h1>
+                <h1>About Me - Coming Soon!</h1>
             </div>
         )
     }
