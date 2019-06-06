@@ -21,8 +21,9 @@ function App() {
               <a href="/aboutme">About Me</a>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer>
           <Navigation>
+            <a href="/">Farhad's Portfolio</a>
             <a href="/resume">Resume</a>
             <a href="/projects">Projects</a>
             <a href="/contact">Contact</a>
