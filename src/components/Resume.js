@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Document } from 'react-pdf/dist/entry.webpack';
 
 class Resume extends Component {
   render() {
