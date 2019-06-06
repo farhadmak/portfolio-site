@@ -17,8 +17,8 @@ function App() {
           <Navigation className="nav-text">
             <a className="hvr-underline-from-center" href="/resume">Resume</a>
             <a className="hvr-underline-from-center" href="/projects">Projects</a>
-            <a className="hvr-underline-from-center" href="/contact">Contact</a>
             <a className="hvr-underline-from-center" href="/aboutme">About Me</a>
+            <a className="hvr-underline-from-center" href="/contact">Contact</a>
           </Navigation>
         </Header>
         <Drawer>
@@ -26,8 +26,8 @@ function App() {
             <a href="/">Farhad's Portfolio</a>
             <a href="/resume">Resume</a>
             <a href="/projects">Projects</a>
-            <a href="/contact">Contact</a>
             <a href="/aboutme">About Me</a>
+            <a href="/contact">Contact</a>
           </Navigation>
         </Drawer>
         <Content>
