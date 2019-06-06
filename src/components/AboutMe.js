@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
 class AboutMe extends Component {
-    render() {
-        return (
-            <div>
-                <h1>About Me - Coming Soon!</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div>
+        <div className="text-container">
+          <h1>About me</h1>
+          <p>Coming soon!</p>
+        </div>
+      </div>
+    )
+  }
 }
 export default AboutMe;
