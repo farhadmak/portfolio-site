@@ -150,7 +150,7 @@
   display: block;
   margin: auto;
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 .text-container {
@@ -207,6 +207,12 @@
   border-radius: 10px;
   z-index: 1;
   position: relative;
+}
+
+.react-pdf__Document {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
 .resume-container h1{
