@@ -12,7 +12,7 @@ function App() {
       <Layout>
         <Header className="nav-header" scroll>
           <Navigation className="home-link">
-            <a className="hvr-wobble-skew" href="/">Farhad's Portfolio</a>
+            <a className="hvr-wobble-skew" href="/">Farhad Makiabady</a>
           </Navigation>
           <Navigation className="nav-text">
             <a className="hvr-underline-from-center" href="/resume">Resume</a>
@@ -32,7 +32,7 @@ function App() {
         </Drawer>
         <Content>
           <div className="page-content" />
-          <Particles
+          <Particles className="particles"
             params={particleFile}
           />
           <Main />

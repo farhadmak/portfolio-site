@@ -17,7 +17,7 @@ code {
     monospace;
 }
 
-canvas {
+.particles canvas {
   display: block;
   position: absolute;
   margin-top: 0px;
