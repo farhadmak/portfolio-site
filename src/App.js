@@ -31,12 +31,11 @@ function App() {
           </Navigation>
         </Drawer>
         <Content>
-          <div className="page-content" />
-          <Particles className="particles"
-            params={particleFile}
-          />
           <Main />
         </Content>
+        <Particles className="particles"
+            params={particleFile}
+          />
       </Layout>
 
     </div>
