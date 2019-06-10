@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import Particles from 'react-particles-js';
 import particleFile from './particles.json';
@@ -12,7 +12,7 @@ function App() {
       <Layout>
         <Header className="nav-header" scroll>
           <Navigation className="home-link">
-            <a className="hvr-wobble-skew" href="/">Farhad's Portfolio</a>
+            <a className="hvr-wobble-skew" href="/">Farhad Makiabady</a>
           </Navigation>
           <Navigation className="nav-text">
             <a className="hvr-underline-from-center" href="/resume">Resume</a>
@@ -31,12 +31,11 @@ function App() {
           </Navigation>
         </Drawer>
         <Content>
-          <div className="page-content" />
-          <Particles
-            params={particleFile}
-          />
           <Main />
         </Content>
+        <Particles className="particles"
+            params={particleFile}
+          />
       </Layout>
 
     </div>
