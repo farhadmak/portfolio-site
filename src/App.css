@@ -188,3 +188,60 @@
   font-size: 5em;
 }
 
+.resume {
+  opacity: 1;
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: 1800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume {
+    height: 450px;
+  }
+}
+
+.resume-container {
+  margin: auto;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.resume-container h1{
+  font-size: 66px;
+  text-align: center;
+  font-weight: bold;
+  color: #66FCF1;
+}
+
+.contact-me-textfields {
+  padding: 25px;
+}
+
+.contact-me-textfields p {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.mdl-card {
+  border-radius: 20px !important;
+}
+
+.about-me-text p {
+  text-align: left !important;
+}
+
+.about-me-text {
+  padding: 3em;
+}
+
+.about-me-text a {
+  color: #66FCF1;
+}
+
+.mdl-tabs__tab {
+  color: #66FCF1 !important;
+}
