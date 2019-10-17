@@ -251,3 +251,16 @@
 .mdl-tabs__tab {
   color: #66FCF1 !important;
 }
+
+.iframe-container {
+  padding-bottom:56.25%; 
+  position:relative; 
+  display:block; 
+  width: 100%;
+}
+
+#resume-iframe {
+  position:absolute; 
+  top:0; 
+  left: 0;
+}
