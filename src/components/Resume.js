@@ -11,7 +11,7 @@ class Resume extends Component {
         <div id="iframe-container">
           <iframe id="resume-iframe" title="resume" 
             width="100%" height="100%" 
-            src="https://drive.google.com/file/d/1jmE_7Hw1RwSg5iCQDeDWI7fkbm78JkNf/preview"
+            src="https://drive.google.com/file/d/1AxzKQTkcX-1EEHfneo9kGY2LMz-1iaaZ/preview"
             frameborder="0" allowfullscreen="">
           </iframe>
         </div>
