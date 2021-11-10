@@ -163,7 +163,7 @@
 }
 
 .text-container h1 {
-  font-size: 66px;
+  /* font-size: 66px; */
   text-align: center;
   font-weight: bold;
   color: #66FCF1;
@@ -171,16 +171,17 @@
 
 .text-container p {
   font-size: 20px;
+  margin: 10px;
   text-align: center;
   color: #dedfe0;
 }
 
 .social-links {
   display: flex;
-  justify-content: space-between;
-  width: 20%;
-  margin: auto;
+  justify-content: space-around;
   padding: 2em;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .social-links span{
@@ -201,6 +202,12 @@
     height: 450px;
   }
 }
+@media screen and (max-width: 1024px){
+  .mdl-layout__drawer-button {
+    color: rgb(60, 176, 243) !important;
+  }
+}
+
 
 .resume-container {
   margin: auto;
@@ -228,6 +235,7 @@
 
 .contact-me-textfields p {
   font-size: 20px;
+  margin: 10px;
   text-align: center;
   color: black;
 }
